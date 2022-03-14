@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BFI Financial UI code. 
+
+Before running the project, use 
+`
+yarn install
+`
+to install the dependencies
 
 ## Available Scripts
 
@@ -30,9 +36,9 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `Project Structure - Source`
-
+```
 .src
-├── common                    # Shared components / hooks (alternatively `common` or `tests`)
+|─ common                    # Shared components / hooks (alternatively `common` or `tests`)
 │   ├── components            # Presentation / Stateless components
 |   |   ├──index.tsx          # All files will be exported from a common index.tsx      
 │   ├── hooks
@@ -53,6 +59,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ├── routes.ts
 ├── index.css
 └── App.tsx
-
+```
 ## Routes will be nested and nested routes will live in pages directory
 ## Each page will have an context through which the containers can access the data if needed.
