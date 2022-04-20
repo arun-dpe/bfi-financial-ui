@@ -6,6 +6,7 @@ const StyledCard = styled(Card)<CardProps>(({ theme }) => ({
   textAlign: 'left',
   fontFamily: theme.typography.fontFamily,
   borderRadius: theme.spacing(0.5),
+  padding: theme.spacing(2.5),
 }));
 
 export default StyledCard;

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Footer } from '@components/footer';
-import FinancialWellness from '@containers/overview/FinancialWellness';
-import { Investments, Overview } from '@containers/overview';
-import { Container } from '@common/components/container';
+import { FinancialWellness, Investments, Overview } from '@containers/overview';
 
 export default function Home() {
   return (
