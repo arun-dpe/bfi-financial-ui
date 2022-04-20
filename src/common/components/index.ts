@@ -6,5 +6,9 @@ export { default as Grid } from '@mui/material/Grid';
 export { default as Container } from '@mui/material/Container';
 export { default as Divider } from '@mui/material/Divider';
 export { default as Hidden } from '@mui/material/Hidden';
+export { default as CardActions } from '@mui/material/CardActions';
+export { AccountInfo } from './info';
+export { PageSection } from './section';
+
 
 
